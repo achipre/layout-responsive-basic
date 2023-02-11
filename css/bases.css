@@ -20,7 +20,7 @@
  /* Footer */
   --background-footer: #333333;
   /* Fuentes */
-  --monserrat: 'Montserrat', sans-serif;
+  --montserrat: 'Montserrat', sans-serif;
   --opensans: 'Open Sans', sans-serif;
 }
 
@@ -41,4 +41,10 @@ body {
   border: 1px solid var(--boton-rojo);
   border-radius: 5px;
   font-weight: 700;
+}
+@media screen and (min-width: 1024px) {
+  .container {
+      padding-left: calc((100% - 940px)/2);
+      padding-right: calc((100% - 940px)/2);
+  }
 }
